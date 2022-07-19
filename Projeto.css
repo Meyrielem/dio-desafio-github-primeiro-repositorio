@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #640214;
+    max-width:100vw;
+    overflow: hidden;
+    margin: auto;
+   
+    
+}
+/**AREA TOPO**/
+h1{
+    font-size: 40px;
+    font-family: "arimo";
+    color:#FFBF00;
+}
+.top{
+    width: 100vw;
+    height: 80px;
+    font-family: 'Arimo';
+
+}
+.box-search{
+    width: 100vw;
+    height:20px ;
+    background-color: #500110;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+ 
+    
+
+}
+.botão{
+    transform: translate(-50%);
+}
+
+
+.search{
+    margin-top: -15px;
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#500110;
+    position: absolute;
+   
+}
+.pesquisar{
+    border:1px solid #FFBF00;
+    border-radius: 10px;
+    margin-top: -10px;
+    padding: 10px 60px;
+    position: relative;
+    left: 5px;
+ 
+}
+
+#icone_search{
+    position: absolute;
+    z-index: 10000;
+    color: white;
+    left: 920px;
+}
+
+/**AREA CENTRAL**/
+.filme{
+   display: block;
+   margin-left: 50%;
+   transform: translate(-300px);
+   margin-top: 50px;
+
+}
+
+.central{
+    width: 600px;
+    height:355px;
+    border-bottom: solid 3px #FFBF00;
+    border-top: solid 3px #FFBF00;
+    margin-bottom: 20px;
+    background-image: url(/icones/imagem/centrall.jpg);
+}
+.banner{
+    width: 600px;
+    height: auto;
+   
+}
+/**AREA FOOTER**/
+
+.linha{
+    width: 1550px;
+    height: 15px;
+    background-color: black;
+}
+
+.line{
+    width: 100%;
+    height: 150px;
+    background-color:aliceblue ;
+    overflow: scroll;
+}
+
+.boxes{
+    display: flex;
+}
+.box{
+  
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    margin-top:5px;
+    background-color: aliceblue;
+}
+.filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opcoes{
+    margin-top: 10px;
+    height: 130px;
+    max-width: 200px;
+    object-fit:contain;
+}
+.movie{
+    height: 130px;
+    width: 100%;
+    margin-left: 5px;
+}
